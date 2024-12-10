@@ -8,6 +8,9 @@ on:
 
 jobs:
   close_stale_prs:
+    permissions:
+        contents: read
+        pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - name: Close stale pull requests
