@@ -2,7 +2,7 @@ name: Close Stale Pull Requests
 
 on:
   schedule:
-    - cron: '7 * * * *'  # Run every day at midnight
+    - cron: '30 * * * *'  
 
 jobs:
   close_stale_prs:
