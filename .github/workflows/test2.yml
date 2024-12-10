@@ -1,6 +1,7 @@
 name: Close Stale Pull Requests
 
 on:
+  pull_request_target: 
   schedule:
     - cron: '*/5 * * * *'  
 
