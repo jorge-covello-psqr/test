@@ -1,7 +1,7 @@
 name: "Label Previous Pull Requests"
 on:
     schedule:
-        - cron: '1 * * * *'
+        - cron: '1 * * 1 *'
 
 jobs:
     labeler:
@@ -11,3 +11,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/labeler@v5
+              with:
+                asd: test
